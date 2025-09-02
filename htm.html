@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
     <style>
-        body{background-color: rgb(0, 217, 255);}
+        body{background-color: rgb(162, 171, 173);}
         form{font-size: 25px;}
         h2{font-family: Arial, Helvetica, sans-serif;}
     </style>
@@ -13,7 +13,7 @@
     <fieldset>
         <legend>Personal Information</legend>
     <form>
-        <label>Name</label><br>
+        <label>Name(First, Middle, Last)</label><br>
         <input type="text" id="Name"><br><br>
 
         <label>Email id</label><br>
@@ -22,12 +22,23 @@
         <label>Phone Number (This will be hidden)</label><br>
         <input type="password" id="Phone Number"><br><br>
 
+        <label>Birthdate</label><br>
+        <input type="date" id="Birthdate"><br><br>
+
+        <label>Profession/Occupation</label><br>
+        <input type="text" id="Profession/Occupation"><br><br>
+
+        <label>Address</label><br>
+        <input type="text" id="Address"><br><br>
+
         <label>Choose your gender</label><br>
         <select name="gender" id="choose">
             <option value="Male">Male</option>
             <option value="Rather not say">Rather not say</option>
             <option value="Female">Female</option>
             <option value="Other">Other</option>
+            
+            
     </form>
     </fieldset>
 </head>
